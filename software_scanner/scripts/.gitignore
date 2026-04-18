@@ -1,0 +1,24 @@
+# (generated) see project canvas for full list
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+*.bak
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.sql
+*.sql.gz
+alembic/versions/*.pyc
+*.pid

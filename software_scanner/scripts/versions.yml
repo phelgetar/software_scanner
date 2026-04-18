@@ -1,0 +1,71 @@
+project_version: 3.0.0
+version: 3.0.0
+
+files:
+  # ── Entry points ──────────────────────────────────────────────
+  main.py: 1.0.0
+  mac_software_scanner.py: 3.0.0
+
+  # ── Package ───────────────────────────────────────────────────
+  software_scanner/__init__.py: 3.0.0
+  software_scanner/cli.py: 1.0.0
+
+  # ── scanner ───────────────────────────────────────────────────
+  software_scanner/scanner/__init__.py: 1.0.0
+  software_scanner/scanner/applications.py: 1.0.0
+  software_scanner/scanner/homebrew.py: 1.0.0
+  software_scanner/scanner/npm_packages.py: 1.0.0
+  software_scanner/scanner/python_packages.py: 1.0.0
+
+  # ── backup ────────────────────────────────────────────────────
+  software_scanner/backup/__init__.py: 1.0.0
+  software_scanner/backup/app_settings.py: 1.0.0
+  software_scanner/backup/browsers.py: 1.0.0
+  software_scanner/backup/chrome.py: 1.0.0
+
+  # ── restore ───────────────────────────────────────────────────
+  software_scanner/restore/__init__.py: 1.0.0
+  software_scanner/restore/installer.py: 1.0.0
+  software_scanner/restore/manager.py: 1.0.0
+
+  # ── reports ───────────────────────────────────────────────────
+  software_scanner/reports/__init__.py: 1.0.0
+  software_scanner/reports/generator.py: 1.0.0
+
+  # ── utils ─────────────────────────────────────────────────────
+  software_scanner/utils/__init__.py: 1.0.0
+  software_scanner/utils/fs.py: 1.0.0
+  software_scanner/utils/shell.py: 1.0.0
+
+  # ── scripts — Python ─────────────────────────────────────────
+  software_scanner/scripts/add_headers.py: 1.0.0
+  software_scanner/scripts/apply_headers.py: 0.6.0
+  software_scanner/scripts/bump_file_versions.py: 0.4.1
+  software_scanner/scripts/bump_version.py: 0.6.0
+  software_scanner/scripts/cleanup.py: 0.4.1
+  software_scanner/scripts/edit_header_section.py: 0.1.0
+  software_scanner/scripts/init_versions.py: 0.4.1
+  software_scanner/scripts/safe_header_apply.py: 0.4.1
+  software_scanner/scripts/validate_headers-1.py: 0.4.1
+  software_scanner/scripts/validate_headers.py: 0.4.1
+
+  # ── scripts — Shell ──────────────────────────────────────────
+  software_scanner/scripts/backup_files.sh: 0.4.1
+  software_scanner/scripts/backup_mysql.sh: 0.4.1
+  software_scanner/scripts/backup_snapshots.sh: 0.4.1
+  software_scanner/scripts/dry-run.sh: 0.4.1
+  software_scanner/scripts/git_bootstrap.sh: 0.1.0
+  software_scanner/scripts/reinstall_alembic.sh: 0.7.0
+  software_scanner/scripts/release_tag.sh: 0.6.0
+  software_scanner/scripts/restore_files.sh: 0.4.1
+  software_scanner/scripts/restore_mysql.sh: 0.4.1
+  software_scanner/scripts/validation.sh: 0.4.1
+
+  # ── tests ─────────────────────────────────────────────────────
+  tests/__init__.py: 1.0.0
+  tests/test_reports.py: 1.0.0
+  tests/test_restore.py: 1.0.0
+  tests/test_scanner.py: 1.0.0
+
+  # ── root-level scripts ────────────────────────────────────────
+  validate_headers.py: 0.4.1
